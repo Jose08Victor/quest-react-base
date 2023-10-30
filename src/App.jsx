@@ -1,5 +1,5 @@
-import Paragraph from "./components/paragraph.js";
-import Button from "./components/button.js";
+import Paragraph from "./components/styledText/index.jsx";
+import Button from "./components/alertButton/index.jsx";
 
 function App() {
   return (
