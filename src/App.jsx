@@ -1,7 +1,7 @@
-import Paragraph from "./components/styledText/index.jsx";
-import Button from "./components/alertButton/index.jsx";
+import { Paragraph } from "./components/styledText/index.jsx";
+import { Button } from "./components/alertButton/index.jsx";
 
-function App() {
+export function App() {
   return (
     <>
       <Paragraph paragraphColor="Green" stateOfLetters="uppercase" />
@@ -10,5 +10,3 @@ function App() {
     </>
   );
 }
-
-export default App;
